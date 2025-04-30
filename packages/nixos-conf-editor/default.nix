@@ -21,8 +21,9 @@
 , rustPlatform
 , vte-gtk4
 , wrapGAppsHook4
+, ...
 }:
-stdenv.mkDerivation rec {
+stdenv.mkDerivation {
   pname = "nixos-conf-editor";
   version = "0.1.2";
 
